@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/bottom_sheet_container"
+    android:background="@drawable/bottom_sheet_background"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Создать новое объявление"
+        android:textSize="20dp"
+        android:textStyle="bold|normal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/white"/>
+
+    <LinearLayout
+        android:id="@+id/transport"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/car_icon"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Транспорт"
+            android:textSize="16dp"
+            android:textStyle="normal"
+            android:layout_marginTop="14dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/flats"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/flat_home_icon"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Недвижимость"
+            android:textSize="16dp"
+            android:textStyle="normal"
+            android:layout_marginTop="14dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/work"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/work_white_icon"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Работа"
+            android:textSize="16dp"
+            android:textStyle="normal"
+            android:layout_marginTop="14dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/service"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/service_icon"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Услуги"
+            android:textSize="16dp"
+            android:textStyle="normal"
+            android:layout_marginTop="14dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/goods"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/camera_icon"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Вещи, электроника, хобби, животные, бизнес"
+            android:textSize="15dp"
+            android:textStyle="normal"
+            android:layout_marginTop="14dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+</LinearLayout>
