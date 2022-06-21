@@ -4,4 +4,5 @@
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
     <string name="security_mode_desciption">Чтобы ваш настоящий номер не попал \n в базы машенников, мы показываем \n вместо него подменный, а звонки \n переводим вам. Эту защиту нельзя \n отключить</string>
+    <string name="new_prouct">+ Разместить объявление</string>
 </resources>
